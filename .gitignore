@@ -2,3 +2,7 @@ bin
 obj
 packages
 .vs
+*.user
+*.filters
+Debug
+Release
