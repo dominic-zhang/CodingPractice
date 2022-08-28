@@ -6,7 +6,7 @@ Examples
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 */
-class DLLEXPORT PigLatin
+class __declspec(dllexport) PigLatin
 {
 public:
     std::string pig_it(std::string str);
