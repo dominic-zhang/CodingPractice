@@ -156,6 +156,7 @@
     <ClInclude Include="MoveZerosToEnd.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="PigLatin.h" />
+    <ClInclude Include="RangeExtraction.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
@@ -168,6 +169,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="PigLatin.cpp" />
+    <ClCompile Include="RangeExtraction.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
