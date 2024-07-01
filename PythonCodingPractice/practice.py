@@ -211,3 +211,13 @@ if "Jake" in phonebook:
     print("Jake is listed in the phonebook")
 if "Jill" not in phonebook:
     print("Jill is not listed in the phonebook")
+
+import re
+functions = dir(re)
+find_members = []
+for f in functions:
+    if "find" in f:
+        find_members.append(f)
+
+find_members.sort()
+print(find_members)
